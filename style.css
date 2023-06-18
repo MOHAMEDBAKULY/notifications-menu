@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family:'Inter', sans-serif;
+}
+
+body{
+    background: rgb(208, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.top ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:190px;
+    margin-top:20px;
+}
+
+.container{
+    width: 550px;
+    height: 800px;
+    background: 3px 5px 9px rgba(0,0,0,0.7);
+    background-color: rgb(253, 253, 249);
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul .note{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+ul .mark{
+    color: #0072fa;
+    border-bottom: 3px solid ;
+    margin-right: 5px;
+}
+.messages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    width: 95%;
+    margin-left: 20px;
+}
+.messages i{
+    color:#0072fa;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #0072fa;
+    border-radius: 50%;
+    height: 14px;
+    width: 15px;
+    margin-right: 70px;
+    position: absolute;
+    top:2px;
+    left: 6px;
+}
+
+
+
+.messages .center{
+  width: 70%;
+}
+
+.messages .center b{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right:px;
+}
+
+.messages .center p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.messages img{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    position: absolute;
+    top:2px;
+    right: 7px;
+}
+
+.messages.name{
+    background:rgb(235, 232, 232) ;
+    border-radius: 10px;
+    padding: 10px ;
+}
+
+.messages.name .bakuly{
+    color: #0072fa;
+}
+
+.messages.name .center p{
+    color: rgb(129, 127, 127);
+}
+
+.messages.name i .center img{
+    background-color: rgb(197, 203, 203);
+
+}
+
+hr{
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container  .view {
+    margin-top: 10px;
+    color: #0072fa;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left:20px ;
+    border-bottom: 3px solid #0072fa;
+    width: 164px;
+}
+
+@media only screen and (min-width: 413px) {
+
+    .top ul .mark {
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: -100px;
+        color: #0072fa;
+
+    }
+    .container{
+        width: 96%;
+        height: 440px;
+    }
+    .container .view{
+        border-bottom: none;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
